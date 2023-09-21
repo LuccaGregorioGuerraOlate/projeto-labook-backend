@@ -1,6 +1,3 @@
-# labook-back-end
-O Labook é uma rede social com o objetivo de promover a conexão e interação entre pessoas. Quem se cadastrar no aplicativo poderá criar e curtir publicações. 
-
 
 # Url da documentação no PostMan:
 https://documenter.getpostman.com/view/27736274/2s9Xy6qACb
@@ -109,8 +106,3 @@ bash
 Copy code
 curl --location -X PUT 'http://localhost:3003/posts/<id_do_post_aqui>/like' \
 --header 'Authorization: <seu_token_aqui>'
-
-# Considerações Finais
-Esta documentação detalhou as principais funcionalidades e endpoints do projeto Labook, uma aplicação de rede social. Certifique-se de seguir o formato de solicitação adequado para cada endpoint e incluir o token de autenticação nos headers sempre que necessário. Em caso de dúvidas ou problemas, entre em contato com a equipe de suporte. Divirta-se usando o Labook!
-
-
